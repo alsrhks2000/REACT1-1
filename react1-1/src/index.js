@@ -3,11 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Library from "./chapter_03/Library";
-import Clock from "./chapter_04/clock";
-import Welcome from "./chapter_04/Welcome";
 
-const element = <Welcome name="인재" />;
+
+const element = <App />;
 
 ReactDOM.render(element, document.getElementById("root"));
 

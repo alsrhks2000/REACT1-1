@@ -1,6 +1,6 @@
 import { useStatus, useEffect} from "react";
 
-export default function UserStatus (props) {
+function useUserStatus(userID){
     const[isOnlone, setIsOnline]=useStatus(null)
     
     useEffect(()=>{
@@ -13,9 +13,5 @@ export default function UserStatus (props) {
             ServerAPI.unsubscribeUserStatus(props.user.id,handleStatusChange)
         }
     })
-    return (
-        <li stle={{color:isOnlone ? 'green': 'black'}}>
-            {props.user.name}
-        </li>
-    )
+    return isOnlone
 }
