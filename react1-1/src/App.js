@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Accommodate from './Accommodate';
+import Toggle from './Toggle';
+import LoginControl from './LoginControl';
+import MainPage from './MainPage';
+import MyButton from './MyButton';
+
+
 
 
 function App() {
   return (
     <div className="App">
-      
-      <Accommodate />
+      <LoginControl />
+      <Toggle />
+      <MainPage />
+      <MyButton />
     </div>
   );
 }
