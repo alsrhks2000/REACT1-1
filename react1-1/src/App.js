@@ -8,6 +8,7 @@ import ToolBar from './ToolBar';
 import LandingPage from './LandingPage';
 import NumberList from './NumberList';
 import AttendanceBook from './AttendanceBook';
+import SignUp from './signup';
 
 
 
@@ -15,9 +16,10 @@ import AttendanceBook from './AttendanceBook';
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
-      <NumberList/>
-      <AttendanceBook/>
+      {/* <LandingPage/> */}
+      {/* <NumberList/> */}
+      {/* <AttendanceBook/> */}
+      <SignUp/>
     </div>
   );
 }
