@@ -9,6 +9,8 @@ import LandingPage from './LandingPage';
 import NumberList from './NumberList';
 import AttendanceBook from './AttendanceBook';
 import SignUp from './signup';
+import Card from './Card';
+import ProfileCard from './ProfileCard';
 
 
 
@@ -16,10 +18,12 @@ import SignUp from './signup';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage/> */}
-      {/* <NumberList/> */}
-      {/* <AttendanceBook/> */}
+      {<LandingPage/>}
+      { <NumberList/> }
+      {<AttendanceBook/> }
       <SignUp/>
+      <Card/>
+      <ProfileCard/>
     </div>
   );
 }
